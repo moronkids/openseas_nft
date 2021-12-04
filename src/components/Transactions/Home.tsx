@@ -24,11 +24,11 @@ const ConnectButton = styled(WalletDialogButton)`
 padding: 15px 22px !important;
     width: -moz-fit-content !important;
     width: fit-content !important;
-    font-family: "Montserrat", sans-serif !important;
-    font-size: 20px !important;
-    font-weight: 700 !important;
-    color: #ffffff !important;
-    background-color: #e75480 !important;
+    font-family: "Holtwood One SC", serif !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    color: #1e1339 !important;
+    background-color: #87EC9D !important;
     border-radius: 20px !important`;
 const ConnectButtonPure = styled(WalletDialogButton)`
     span {
@@ -272,12 +272,16 @@ const Home = (props: HomeProps) => {
             style={{
               // margin-top: 20px !important;
               width: '100%',
-              backgroundColor: 'unset',
+              borderRadius: '20px !important',
               boxShadow: 'unset',
+              padding: '0px',
               fontStyle: 'bold',
-              fontSize: '22px',
-              color: 'white',
-              fontFamily: 'Poppins, sans-serif'
+              // fontSize: '22px',
+              background: 'unset',
+              fontFamily: "Holtwood One SC, serif !important",
+              fontSize: ' 22px !important',
+              fontWeight: 500,
+              color: '#1e1339 !important',
             }}
           >
             {isSoldOut ? (
@@ -314,7 +318,7 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-    </main>
+    </main >
   );
 };
 

@@ -18,49 +18,6 @@ function Index() {
         <Zoom top>
           <Banner />
         </Zoom>
-        <div className="position-relative">
-          <div
-            id="project"
-            className="position-absolute"
-            style={{
-              top: "-70px",
-            }}
-          />
-        </div>
-        <div
-          id="project"
-          name="project"
-          className=""
-          style={{
-            background: "#f5f5f5",
-            paddingTop: "30px",
-            paddingBottom: "70px",
-          }}
-        >
-          <Project />
-        </div>
-        <div className="position-relative">
-          <div
-            id="roadmap"
-            className="position-absolute"
-            style={{
-              top: "-70px",
-            }}
-          ></div>
-        </div>
-        <div
-          id="roadmap"
-          name="roadmap"
-          className="roadmap"
-          style={{
-            color: "#000000",
-            paddingTop: "50px",
-            paddingBottom: "70px",
-          }}
-        >
-          {/* <Faq /> */}
-          <Roadmap />
-        </div>
       </div>
     </>
   );

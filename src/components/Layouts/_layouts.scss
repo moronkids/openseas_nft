@@ -1,13 +1,15 @@
 .navbar {
   // width: 100vw;
-  display: inline-flex;
+  display: flex;
   // position: fixed;
-  background-color: #ffffff;
+  // background-color: #ffffff;
+  background-color: #1e1339;
   color: #0c7097;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  // max-width: 100;
+  max-width: 1216px;
+  padding: 10px 0;
   @media (max-width: 1024px) {
     display: none;
   }
@@ -39,14 +41,18 @@
     visibility: visible !important;
     justify-content: center;
     align-items: center;
+    //@at-root
+
     @media (max-width: 1367px) {
       font-size: 13px;
       padding-left: 0px;
     }
     li {
       cursor: pointer;
-      font-size: 13px;
-      color: #0c7097;
+      font-family: "Holtwood One SC", serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #87ec9d;
       span {
         border-radius: 25px;
         color: #0c7097;
@@ -65,8 +71,8 @@
   }
 }
 .navbar.active {
-  backdrop-filter: blur(12px);
-  background-color: hsla(0, 0%, 100%, 0.47);
+  // backdrop-filter: blur(12px);
+  // background-color: hsla(0, 0%, 100%, 0.47);
   opacity: 1;
   visibility: visible;
 }
@@ -74,7 +80,8 @@
   width: 100vw;
   height: 70px;
   backdrop-filter: blur(12px);
-  background-color: hsla(0, 0%, 100%, 0.47);
+  // background-color: hsla(0, 0%, 100%, 0.47);
+  background-color: #1e1339;
   display: none;
   position: fixed;
   @media (max-width: 1024px) {
@@ -87,10 +94,12 @@
     z-index: 100;
     box-shadow: orange;
     backdrop-filter: blur(12px);
-    background-color: hsla(0, 0%, 100%, 0.47);
+    background-color: #1e1339;
+    // background-color: hsla(0, 0%, 100%, 0.47);
     @media (max-width: 524px) {
       backdrop-filter: blur(12px);
-      background-color: hsla(0, 0%, 100%, 0.47);
+      // background-color: hsla(0, 0%, 100%, 0.47);
+      background-color: #1e1339;
     }
   }
   nav {

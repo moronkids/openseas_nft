@@ -28,9 +28,9 @@ function Index(props) {
       </Suspense>
       {props.children}
 
-      <Suspense fallback={""}>
+      {/* <Suspense fallback={""}>
         <Footer />
-      </Suspense>
+      </Suspense> */}
       {/* </div> */}
     </>
   );

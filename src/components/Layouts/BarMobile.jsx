@@ -14,13 +14,18 @@ function BarMobile() {
       <div className={`bar-mobile ${barMobile && "active"}`}>
         <ul>
           <li>
-            <a href="#banner" onClick={() => setBarMobile(false)}>
-              HOME
+            <a href="#project" onClick={() => setBarMobile(false)}>
+              ABOUT
             </a>
           </li>
           <li>
-            <a href="#project" onClick={() => setBarMobile(false)}>
-              ABOUT
+            <a href="#roadmap" onClick={() => setBarMobile(false)}>
+              SOCIAL
+            </a>
+          </li>
+          <li>
+            <a href="#roadmap" onClick={() => setBarMobile(false)}>
+              LINK
             </a>
           </li>
           <li>
@@ -28,17 +33,27 @@ function BarMobile() {
               ROADMAP
             </a>
           </li>
+          <li>
+            <a href="#roadmap" onClick={() => setBarMobile(false)}>
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a href="#roadmap" onClick={() => setBarMobile(false)}>
+              TRAITS
+            </a>
+          </li>
           {/* <li>
             <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
           </li> */}
-          <li className="col-6 d-flex mx-auto">
+          {/* <li className="col-6 d-flex mx-auto">
             <a href="https://discord.gg/bkWJHedf3X" className="col-3">
               <img src={Discord} alt="" width="30" />
             </a>
             <a href="https://twitter.com/internetkidsio" className="col-3">
               <img src={Twitter} alt="" width="30" />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

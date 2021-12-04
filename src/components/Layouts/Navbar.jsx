@@ -6,7 +6,7 @@ import styled from "styled-components";
 import Connect from "components/Transactions";
 import Discord from "assets/img/icons8-discord.svg";
 import Twitter from "assets/img/icons8-twitter.svg";
-import LogoNavbar from "assets/img/logo_navbar.png";
+import LogoNavbar from "assets/img/logo-navbar.svg";
 function Navbar() {
   const { pathname } = useLocation();
   const { setScroll, scroll, barMobile, setBarMobile, wallet_, setWallet_ } =
@@ -20,18 +20,18 @@ function Navbar() {
     <>
       <div
         // className={`navbar active`}
-        className={`navbar px-3 sticky-top d-md-flex d-none flex-row  justify-content-between ${
+        className={`navbar px-3 sticky-top d-md-flex d-none flex-row  justify-content-between mx-auto ${
           scroll && "active"
         }`}
         style={{ zIndex: "999999" }}
       >
-        <div className="navbar-icon">
+        <div className="navbar-icon w-100 h-100">
           <img
             src={LogoNavbar}
             alt=""
             style={{
-              maxWidth: "170px",
-              maxHeight: "390x",
+              maxWidth: "82px",
+              maxHeight: "64px",
             }}
           />
         </div>
@@ -45,13 +45,22 @@ function Navbar() {
               {!wallet_ && <Connect />}
             </div> */}
             <li>
-              <a href="#banner">HOME</a>
+              <a href="#banner">ABOUT</a>
             </li>
             <li>
-              <a href="#project">ABOUT</a>
+              <a href="#project">SOCIAL</a>
+            </li>
+            <li>
+              <a href="#roadmap">LINK</a>
             </li>
             <li>
               <a href="#roadmap">ROADMAP</a>
+            </li>
+            <li>
+              <a href="#roadmap">FAQS</a>
+            </li>
+            <li>
+              <a href="#roadmap">TRAITS</a>
             </li>
             {/* <li>
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
@@ -69,9 +78,9 @@ function Navbar() {
             </li> */}
           </ul>
         </div>
-        <div className="btn-join-discord d-flex justify-content-center align-items-center">
+        {/* <div className="btn-join-discord d-flex justify-content-center align-items-center">
           JOIN THE DISCORD
-        </div>
+        </div> */}
       </div>
     </>
   );
