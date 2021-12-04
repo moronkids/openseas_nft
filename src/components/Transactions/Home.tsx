@@ -20,13 +20,16 @@ import {
 import { Hooks } from "providers";
 
 const ConnectButton = styled(WalletDialogButton)`
-    box-shadow: unset !important;
-    padding: 8px 15px !important;
-    background-color: unset !important;
-    font-family: "Poppins", sans-serif !important;
-    font-size: 22px !important;
-    color: white !important;
-    `;
+
+padding: 15px 22px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background-color: #e75480 !important;
+    border-radius: 20px !important`;
 const ConnectButtonPure = styled(WalletDialogButton)`
     span {
     box-shadow: unset !important;
@@ -260,7 +263,7 @@ const Home = (props: HomeProps) => {
         ) : props.mobile ? (
           <ConnectButtonMobile>CONNECT WALLET</ConnectButtonMobile>
         ) : (
-          <ConnectButton>Connect Wallet</ConnectButton>
+          <ConnectButton>CONNECT WALLET</ConnectButton>
         ) : (
           <MintButton
             disabled={isSoldOut || isMinting || !isActive}

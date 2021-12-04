@@ -44,7 +44,15 @@ function Navbar() {
             {/* <div style={{ display: "block" }} ref={myRefname}>
               {!wallet_ && <Connect />}
             </div> */}
-
+            <li>
+              <a href="#banner">HOME</a>
+            </li>
+            <li>
+              <a href="#project">ABOUT</a>
+            </li>
+            <li>
+              <a href="#roadmap">ROADMAP</a>
+            </li>
             <li>
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>

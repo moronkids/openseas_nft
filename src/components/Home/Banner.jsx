@@ -34,7 +34,7 @@ function Banner() {
             {wallet_ && (
               <div className="text">{datas?.[0] + "/" + datas?.[1]}</div>
             )}
-            <div className="stat">
+            <div className="">
               {!wallet_ && <Connect />}
               {wallet_ && <Connect />}
             </div>

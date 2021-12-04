@@ -14,6 +14,21 @@ function BarMobile() {
       <div className={`bar-mobile ${barMobile && "active"}`}>
         <ul>
           <li>
+            <a href="#banner" onClick={() => setBarMobile(false)}>
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#project" onClick={() => setBarMobile(false)}>
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="#roadmap" onClick={() => setBarMobile(false)}>
+              ROADMAP
+            </a>
+          </li>
+          <li>
             <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
           </li>
           <li className="col-6 d-flex mx-auto">

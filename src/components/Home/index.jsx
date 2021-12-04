@@ -13,13 +13,23 @@ function Index() {
   const { timer, setTimer } = useContext(Hooks);
 
   return (
-    <div>
+    <>
       <div className="wrap-body">
         <Zoom top>
           <Banner />
         </Zoom>
+        <div className="position-relative">
+          <div
+            id="project"
+            className="position-absolute"
+            style={{
+              top: "-70px",
+            }}
+          />
+        </div>
         <div
-          id="home-project"
+          id="project"
+          name="project"
           className=""
           style={{
             background: "#f5f5f5",
@@ -29,8 +39,18 @@ function Index() {
         >
           <Project />
         </div>
+        <div className="position-relative">
+          <div
+            id="roadmap"
+            className="position-absolute"
+            style={{
+              top: "-70px",
+            }}
+          ></div>
+        </div>
         <div
-          id="home-roadmap"
+          id="roadmap"
+          name="roadmap"
           className="roadmap"
           style={{
             color: "#000000",
@@ -42,7 +62,7 @@ function Index() {
           <Roadmap />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
