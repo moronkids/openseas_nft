@@ -284,7 +284,9 @@ const Home = (props: HomeProps) => {
               "SOLD OUT"
             ) : isActive ? (
               isMinting ? (
-                <CircularProgress />
+                <div className="mx-auto">
+                  <CircularProgress />
+                </div>
               ) : (
                 <div className="stat">PURCHASE</div>
               )
