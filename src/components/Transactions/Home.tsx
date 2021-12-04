@@ -50,7 +50,7 @@ const ConnectButtonPure = styled(WalletDialogButton)`
     font-weight: bold;
     }
     span:hover {
-      color: orange !important;
+      color: #E3597F !important;
       border: unset !important;
 
     }
@@ -78,7 +78,7 @@ const ConnectButtonMobile = styled(WalletDialogButton)`
     font-weight: bold;
     }
     span:hover {
-      color: orange !important;
+      color: #E3597F !important;
       border: unset !important;
 
     }
