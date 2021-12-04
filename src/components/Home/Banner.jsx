@@ -1,7 +1,4 @@
 import React, { useContext, useEffect } from "react";
-import IconChar from "assets/img/sevenDeadlySins/icons/771.webp";
-import Icon from "assets/img/sevenDeadlySins/icons/iconBanner.png";
-import Menu from "components/Menu";
 import Connect from "components/Transactions";
 import { Hooks } from "providers";
 import ReactPlayer from "react-player/youtube";
