@@ -14,40 +14,6 @@ function BarMobile() {
       <div className={`bar-mobile ${barMobile && "active"}`}>
         <ul>
           <li>
-            {pathname === "/" ? (
-              <a href="#banner">HOME</a>
-            ) : (
-              <a href="/#banner">HOME</a>
-            )}
-          </li>
-          <li>
-            {pathname === "/" ? (
-              <a href="#home-desc">ABOUT</a>
-            ) : (
-              <a href="/#home-desc">ABOUT</a>
-            )}
-          </li>
-          <li>
-            <a
-              href="https://internetkids.shop/"
-              onClick={() => setBarMobile(!barMobile)}
-            >
-              CLOTHING
-            </a>
-          </li>
-          <li>
-            <Link to="/thegame" onClick={() => setBarMobile(!barMobile)}>
-              THE GAME
-            </Link>
-          </li>
-          <li>
-            {pathname === "/" ? (
-              <a href="#home-faq">FAQ</a>
-            ) : (
-              <a href="/#home-faq">FAQ</a>
-            )}
-          </li>
-          <li>
             <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
           </li>
           <li className="col-6 d-flex mx-auto">

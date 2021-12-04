@@ -21,9 +21,9 @@
     }
     @media (max-width: 524px) {
       min-height: 5 00px;
-      margin-top: 70px;
+      margin-top: 0px;
       margin-bottom: 0px;
-      background-position-y: 25px;
+      background-position-y: 0px;
       background-size: inherit;
     }
     &-wrapping {
@@ -35,7 +35,7 @@
       align-items: center;
       @media (max-width: 524px) {
         padding: 20px;
-        min-height: 710px;
+        min-height: 0px;
       }
       .desc {
         max-width: 800px;
@@ -46,7 +46,7 @@
         font-weight: 400;
         text-shadow: 0 0 20px #ffffff, 2px 2px 2px #000000;
         @media (max-width: 524px) {
-          font-size: 18px;
+          font-size: 14px;
         }
       }
 
@@ -82,7 +82,7 @@
           justify-content: center;
           align-items: center;
           @media (max-width: 524px) {
-            font-size: 20px;
+            font-size: 17px;
           }
         }
         .stat {

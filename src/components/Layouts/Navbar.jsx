@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <div
         // className={`navbar active`}
-        className={`navbar px-3 sticky-top d-flex flex-row justify-content-between ${
+        className={`navbar px-3 sticky-top d-md-flex d-none flex-row  justify-content-between ${
           scroll && "active"
         }`}
         style={{ zIndex: "999999" }}
@@ -46,44 +46,9 @@ function Navbar() {
             </div> */}
 
             <li>
-              {pathname === "/" ? (
-                <a href="#banner">HOME</a>
-              ) : (
-                <a href="/#banner">HOME</a>
-              )}
-            </li>
-            <li>
-              {pathname === "/" ? (
-                <a href="#home-desc">ABOUT</a>
-              ) : (
-                <a href="/#home-desc">ABOUT</a>
-              )}
-            </li>
-            <li>
-              <a
-                href="https://internetkids.shop/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                CLOTHING
-              </a>
-            </li>
-            <li>
-              <Link to="/thegame">THE GAME</Link>
-            </li>
-            {/* <li>
-              <a href="#home-desc">TEAM</a>
-            </li> */}
-            <li>
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li>
-            <li>
-              {pathname === "/" ? (
-                <a href="#home-faq">FAQ</a>
-              ) : (
-                <a href="/#home-faq">FAQ</a>
-              )}
-            </li>
+
             {/* <li>
               <a href="https://twitter.com/internetkidsio">
                 <img src={Twitter} alt="" width="25" />

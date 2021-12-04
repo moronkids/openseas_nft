@@ -7,7 +7,7 @@ function NavbarMobile() {
   useEffect(() => {}, [barMobile]);
   return (
     <>
-      <div className="navbar-mobile">
+      <div className="navbar-mobile sticky-top">
         <nav role="navigation">
           <div>
             {/* {!wallet_ && <Connect />} */}

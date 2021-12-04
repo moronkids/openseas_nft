@@ -73,8 +73,8 @@
 .navbar-mobile {
   width: 100vw;
   height: 70px;
-  background-color: #232323;
-  // background-color: white;
+  backdrop-filter: blur(12px);
+  background-color: hsla(0, 0%, 100%, 0.47);
   display: none;
   position: fixed;
   @media (max-width: 1024px) {
@@ -135,7 +135,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: #1c7097;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -241,7 +241,7 @@
   }
   @media (max-width: 524px) {
     padding: 20px 20px 20px 20px;
-    // position: absolute;
+    height: fit-content;
   }
   &-wrap {
     display: grid;
@@ -256,6 +256,7 @@
     height: inherit;
     @media (max-width: 524px) {
       grid-template-columns: 1fr;
+      grid-gap: 0px;
     }
     & .content1 {
       text-align: left;
@@ -277,7 +278,8 @@
     & .content2 {
       text-align: left;
       @media (max-width: 524px) {
-        display: none;
+        // display: none;
+        text-align: center;
       }
     }
     & .content3 {
@@ -295,7 +297,9 @@
       @media (max-width: 524px) {
         grid-column: 2/1;
         justify-content: center;
+        font-size: 20px;
         padding-bottom: 20px;
+        text-align: center;
       }
     }
   }
