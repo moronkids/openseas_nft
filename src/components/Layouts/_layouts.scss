@@ -86,7 +86,12 @@
     // box-shadow: orange;
     z-index: 100;
     box-shadow: orange;
-    background-color: #030303;
+    backdrop-filter: blur(12px);
+    background-color: hsla(0, 0%, 100%, 0.47);
+    @media (max-width: 524px) {
+      backdrop-filter: blur(12px);
+      background-color: hsla(0, 0%, 100%, 0.47);
+    }
   }
   nav {
     display: flex;
