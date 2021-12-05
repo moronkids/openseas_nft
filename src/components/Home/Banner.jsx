@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import Connect from "components/Transactions";
 import { Hooks } from "providers";
-import Hero from "assets/img/hero.png";
+import Hero from "assets/img/dragon.gif";
 import AnotherHero from "assets/img/hero-line.svg";
 import ReactPlayer from "react-player/youtube";
 function Banner() {
@@ -25,10 +25,17 @@ function Banner() {
           <div className="col-12 d-md-flex d-block position-relative">
             <img src={AnotherHero} alt="" className="imgx position-absolute" />
             <div className="col-md-6 col-12 my-auto p-md-0 py-3">
-              <div className="intro">Welcome to the</div>
-              <div className="solana">Solana</div>
-              <div className="piranhas">Piranhas</div>
-              <img src={Hero} alt="" className="img d-sm-none d-block" />
+              <div className="intro">Welcome to </div>
+              <div className="solana">the Alpha</div>
+              <div className="piranhas">Dragon</div>
+              <img
+                src={Hero}
+                style={{
+                  borderRadius: "20px",
+                }}
+                alt=""
+                className="img d-sm-none d-block"
+              />
               {/* <div className="minting">MINTING NOW LIVE 🚀🚀</div> */}
               <div className="first-mint">
                 First time minting? Learn how to do it
@@ -54,7 +61,14 @@ function Banner() {
               </div>
             </div>
             <div className="col-md-6 col-12">
-              <img src={Hero} alt="" className="img d-sm-block d-none" />
+              <img
+                src={Hero}
+                style={{
+                  borderRadius: "20px",
+                }}
+                alt=""
+                className="img d-sm-block d-none"
+              />
             </div>
           </div>
         </div>

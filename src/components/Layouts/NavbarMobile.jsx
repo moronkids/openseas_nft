@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { Hooks } from "providers";
 import Connect from "components/Transactions";
-import NavbarMob from "assets/img/logo-navbar.svg";
+import NavbarMob from "assets/img/iconz.png";
 //tesdfs
 function NavbarMobile() {
   const { barMobile, setBarMobile, wallet_ } = useContext(Hooks);
@@ -9,15 +9,15 @@ function NavbarMobile() {
   return (
     <>
       <div className="navbar-mobile sticky-top">
-        <nav role="navigation" className="w-100">
-          <div className="col-auto w-100 d-flex my-auto">
+        <nav role="navigation" className="w-100 position-relative">
+          <div className="col-auto w-100 d-flex mx-sm-auto m-0">
             <img
               src={NavbarMob}
               alt=""
-              className="pl-3"
+              className="pl-3 navmob"
               style={{
-                width: "61px",
-                height: "48px",
+                maxWidth: "220px",
+                maxHeight: "auto",
               }}
             />
           </div>

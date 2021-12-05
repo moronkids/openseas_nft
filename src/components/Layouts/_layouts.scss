@@ -318,3 +318,10 @@
     }
   }
 }
+.navmob {
+  @media (max-width: 524px) {
+    position: absolute;
+    left: -40px;
+    top: -33px;
+  }
+}
