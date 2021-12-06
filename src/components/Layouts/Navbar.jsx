@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <div
         // className={`navbar active`}
-        className={`navbar px-3 fixed-top d-md-flex d-none flex-row  justify-content-between mx-auto ${
+        className={`navbar px-3 sticky-top d-md-flex d-none flex-row  justify-content-between mx-auto ${
           scroll && "active"
         }`}
         style={{ zIndex: "999999" }}

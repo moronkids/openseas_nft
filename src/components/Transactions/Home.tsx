@@ -27,7 +27,7 @@ padding: 15px 22px !important;
     font-family: "Pixeboy", sans-serif !important;
     font-size: 35px !important;
     font-weight: 700 !important;
-    color: #1e1339 !important;
+    color: #ffffff !important;
     background-color: #87EC9D !important;
     border-radius: 20px !important`;
 const ConnectButtonPure = styled(WalletDialogButton)`
