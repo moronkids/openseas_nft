@@ -292,7 +292,7 @@ const Home = (props: HomeProps) => {
                   <CircularProgress />
                 </div>
               ) : (
-                <div className="stat">PURCHASE</div>
+                <div className="stat">MINT</div>
               )
             ) : (
               <Countdown
