@@ -25,9 +25,9 @@ function Banner() {
           <div className="col-12 d-md-flex d-block position-relative">
             <img src={AnotherHero} alt="" className="imgx position-absolute" />
             <div className="col-md-6 col-12 my-auto p-md-0 py-3">
-              <div className="intro">welcome to the</div>
+              <div className="intro">welcome to</div>
               <div className="solana">Alpha</div>
-              <div className="piranhas">Dragon</div>
+              <div className="piranhas">Dragons</div>
               <img
                 src={Hero}
                 style={{
