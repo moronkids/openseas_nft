@@ -281,7 +281,7 @@ const Home = (props: HomeProps) => {
               fontFamily: "Holtwood One SC, serif !important",
               fontSize: ' 22px !important',
               fontWeight: 500,
-              color: '#1e1339 !important',
+              color: '#ffffff !important',
             }}
           >
             {isSoldOut ? (

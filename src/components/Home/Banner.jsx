@@ -23,7 +23,7 @@ function Banner() {
       >
         <div className="home-banner-wrapping justify-content-center align-items-center w-100 ">
           <div className="col-12 d-md-flex d-block position-relative">
-            <img src={AnotherHero} alt="" className="imgx position-absolute" />
+            {/* <img src={AnotherHero} alt="" className="imgx position-absolute" /> */}
             <div className="col-md-6 col-12 my-auto p-md-0 py-3">
               <div className="intro">welcome to</div>
               <div className="solana">Alpha</div>
@@ -37,17 +37,20 @@ function Banner() {
                 className="img d-sm-none d-block"
               />
               {/* <div className="minting">MINTING NOW LIVE 🚀🚀</div> */}
-              <div className="first-mint">
-                First time minting? Learn how to do it
-                <a
+              {!wallet_ && (
+                <div className="first-mint">
+                  {/* First time minting? Learn how to do it */}
+                  Please Connect Wallet to Mint
+                  {/* <a
                   className="here"
                   href="https://medium.com/@TheSolanaPiranhas/how-to-mint-a-solana-piranha-nft-c7159f1e1466"
                   rel="noreferrer"
                   target="_blank"
                 >
                   HERE{" "}
-                </a>
-              </div>
+                </a> */}
+                </div>
+              )}
 
               {wallet_ && (
                 <>
