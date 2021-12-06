@@ -43,12 +43,12 @@
         font-family: "Pixeboy", sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 0px;
         color: #ffffff;
         padding: 16px 0;
         @media (max-width: 524px) {
           font-size: 24px;
-          line-height: 32px;
+          line-height: 0px;
           text-align: center;
         }
       }
@@ -60,7 +60,7 @@
         color: #ffffff;
         @media (max-width: 524px) {
           font-size: 50px;
-          line-height: 50px;
+          line-height: 30px;
           text-align: center;
         }
       }
@@ -72,8 +72,9 @@
         color: #ffffff;
         @media (max-width: 524px) {
           font-size: 70px;
-          line-height: 70px;
+          line-height: 60px;
           text-align: center;
+          padding-bottom: 20px;
         }
       }
       .minting {
@@ -88,7 +89,7 @@
         font-family: "Pixeboy", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        line-height: 28px;
+        line-height: 0px;
         color: #ffffff;
         padding: 16px 0;
         @media (max-width: 524px) {

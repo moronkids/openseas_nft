@@ -40,7 +40,7 @@ function Banner() {
               {!wallet_ && (
                 <div className="first-mint">
                   {/* First time minting? Learn how to do it */}
-                  Please Connect Wallet to Mint
+                  &nbsp;&nbsp;Please Connect Wallet to Mint
                   {/* <a
                   className="here"
                   href="https://medium.com/@TheSolanaPiranhas/how-to-mint-a-solana-piranha-nft-c7159f1e1466"
@@ -59,7 +59,12 @@ function Banner() {
                   </h2>
                 </>
               )}
-              <div className="d-flex mx-auto justify-content-sm-start justify-content-center">
+              <div
+                className="d-flex mx-auto justify-content-sm-start justify-content-center"
+                style={{
+                  paddingLeft: "6px",
+                }}
+              >
                 <Connect />
               </div>
             </div>
