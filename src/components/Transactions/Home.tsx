@@ -24,9 +24,9 @@ const ConnectButton = styled(WalletDialogButton)`
 padding: 15px 22px !important;
     width: -moz-fit-content !important;
     width: fit-content !important;
-    font-family: "Holtwood One SC", serif !important;
-    font-size: 22px !important;
-    font-weight: 500 !important;
+    font-family: "Pixeboy", sans-serif !important;
+    font-size: 35px !important;
+    font-weight: 700 !important;
     color: #1e1339 !important;
     background-color: #87EC9D !important;
     border-radius: 20px !important`;
