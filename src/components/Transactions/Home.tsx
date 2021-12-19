@@ -28,7 +28,7 @@ padding: 15px 22px !important;
     font-size: 20px !important;
     font-weight: 700 !important;
     color: #ffffff !important;
-    background-color: #e75480 !important;
+    background-color: #4B6C39 !important;
     border-radius: 20px !important`;
 const ConnectButtonPure = styled(WalletDialogButton)`
     span {

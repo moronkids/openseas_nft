@@ -23,9 +23,15 @@ function Faq() {
               // icon={<WorkIcon />}
             >
               {/* <h3 className="vertical-timeline-element-title">Q3 & Q4 2021</h3> */}
-              <p>
+              {/* <p>
                 1. Collectively mint Trash NFTs that remove real trash from the
                 ocean
+              </p> */}
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                hic odit cum porro illum temporibus voluptas nam soluta minus
+                dolore explicabo dignissimos cumque necessitatibus, praesentium
+                reprehenderit aliquid. Voluptas, magnam possimus?
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -37,8 +43,14 @@ function Faq() {
             >
               {/* <h3 className="vertical-timeline-element-title">Q1 2022</h3> */}
 
-              <p>
+              {/* <p>
                 2. Trash holders submit names and vote on our #TeamSeas entry
+              </p> */}
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                hic odit cum porro illum temporibus voluptas nam soluta minus
+                dolore explicabo dignissimos cumque necessitatibus, praesentium
+                reprehenderit aliquid. Voluptas, magnam possimus?
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -48,7 +60,13 @@ function Faq() {
               iconStyle={{ background: "#33769B", color: "#fff" }}
               // icon={<WorkIcon />}
             >
-              <p>3. We claim the Top of the #TeamSeas leaderboard</p>
+              {/* <p>3. We claim the Top of the #TeamSeas leaderboard</p> */}
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                hic odit cum porro illum temporibus voluptas nam soluta minus
+                dolore explicabo dignissimos cumque necessitatibus, praesentium
+                reprehenderit aliquid. Voluptas, magnam possimus?
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -57,7 +75,13 @@ function Faq() {
               iconStyle={{ background: "#33769B", color: "#fff" }}
               // icon={<WorkIcon />}
             >
-              <p>4. Something is rustling... What's inside the bags?</p>
+              {/* <p>4. Something is rustling... What's inside the bags?</p> */}
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+                hic odit cum porro illum temporibus voluptas nam soluta minus
+                dolore explicabo dignissimos cumque necessitatibus, praesentium
+                reprehenderit aliquid. Voluptas, magnam possimus?
+              </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

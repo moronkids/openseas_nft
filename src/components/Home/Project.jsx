@@ -7,10 +7,10 @@ function Faq() {
       <div className="home-project d-flex flex-column m-auto justify-content-center align-items-center">
         {/* <hr /> */}
         <div className="text-center">
-          <h2>About TeamSeasDAO</h2>
+          <h2>About Sol Hippies</h2>
         </div>
         <div className="wrap w-100 flex-column mx-auto">
-          <div className="desc text-center pb-4">
+          {/* <div className="desc text-center pb-4">
             <p>
               <a href="https://www.youtube.com/c/MrBeast6000/videos">
                 <i style={{ color: "blueviolet" }}>
@@ -39,7 +39,7 @@ function Faq() {
               We think the NFT community can come together to take the top spot
               and choose what message will be seen by millions of people.
             </p>
-          </div>
+          </div> */}
           {/* <div className="w-75 mx-auto">
             <div className="img mx-auto"></div>
           </div> */}

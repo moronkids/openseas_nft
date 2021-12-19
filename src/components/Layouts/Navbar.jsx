@@ -26,18 +26,20 @@ function Navbar() {
         style={{ zIndex: "999999" }}
       >
         <div className="navbar-icon">
-          <img
+          {/* <img
             src={LogoNavbar}
             alt=""
             style={{
               maxWidth: "170px",
               maxHeight: "390x",
             }}
-          />
+          /> */}
         </div>
         <div
           style={{
             opacity: 1,
+            textAlign: "center",
+            margin: "0 auto",
           }}
         >
           <ul className="">
@@ -69,7 +71,13 @@ function Navbar() {
             </li> */}
           </ul>
         </div>
-        <div className="btn-join-discord d-flex justify-content-center align-items-center">
+        <div
+          className="btn-join-discord d-flex justify-content-center align-items-center"
+          style={{
+            position: "absolute",
+            right: 20,
+          }}
+        >
           JOIN THE DISCORD
         </div>
       </div>

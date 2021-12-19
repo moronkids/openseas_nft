@@ -3,7 +3,7 @@
   height: 100%;
 
   &-banner {
-    background-image: url("../../assets/img/teamseas_hero.png");
+    background-image: url("../../assets/img/bg.png");
     width: 100%;
     min-height: 900px;
     max-height: fit-content;
@@ -39,12 +39,12 @@
       }
       .desc {
         max-width: 800px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         font-size: 24px;
         line-height: 36px;
         text-align: center;
         font-weight: 400;
-        text-shadow: 0 0 20px #ffffff, 2px 2px 2px #000000;
+        text-shadow: 0 0 20px #dadada, 2px 2px 2px #ffffff;
         @media (max-width: 524px) {
           font-size: 14px;
         }

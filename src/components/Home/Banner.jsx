@@ -22,12 +22,16 @@ function Banner() {
           </div> */}
           <div className="desc">
             <h1>
-              <b>TeamSeas DAO</b>
+              <b>Sol Hippies</b>
             </h1>
-            <h2>Mint some Trash Today!</h2>
-            <h3>
-              5,555 Bags of Trash. 100% raised goes to TeamSeas.org Charity.
-            </h3>
+            <h2>
+              <i>
+                "Each month every Tribe member receives an airdrop of a unique
+                piece created by a blossoming author."
+              </i>
+            </h2>
+            <h4>New Stories Each Month.</h4>
+            <h2>Stealth Minting Right Now. </h2>
           </div>
           <div className="box">
             <div className="text">LAUNCHED ON : 1st January 2022 UTC</div>
