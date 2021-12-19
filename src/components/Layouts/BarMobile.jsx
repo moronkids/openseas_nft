@@ -37,6 +37,7 @@ function BarMobile() {
               <img src={Twitter} alt="" width="30" />
             </a>
           </li> */}
+          {/* //tes */}
         </ul>
       </div>
     </>
