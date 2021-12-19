@@ -27,7 +27,7 @@ function Index() {
             }}
           />
         </div>
-        <div
+        {/* <div
           id="project"
           name="project"
           className=""
@@ -58,9 +58,9 @@ function Index() {
             paddingBottom: "70px",
           }}
         >
-          {/* <Faq /> */}
+
           <Roadmap />
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -49,12 +49,12 @@ function Navbar() {
             <li>
               <a href="#banner">HOME</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#project">ABOUT</a>
             </li>
             <li>
               <a href="#roadmap">ROADMAP</a>
-            </li>
+            </li> */}
             {/* <li>
               <a>{!wallet_ && <Connect navbar={true} mobile={false} />}</a>
             </li> */}

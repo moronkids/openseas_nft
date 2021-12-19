@@ -18,7 +18,7 @@ function BarMobile() {
               HOME
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#project" onClick={() => setBarMobile(false)}>
               ABOUT
             </a>
@@ -28,9 +28,7 @@ function BarMobile() {
               ROADMAP
             </a>
           </li>
-          {/* <li>
-            <a>{!wallet_ && <Connect navbar={false} mobile={true} />}</a>
-          </li> */}
+
           <li className="col-6 d-flex mx-auto">
             <a href="https://discord.gg/bkWJHedf3X" className="col-3">
               <img src={Discord} alt="" width="30" />
@@ -38,7 +36,7 @@ function BarMobile() {
             <a href="https://twitter.com/internetkidsio" className="col-3">
               <img src={Twitter} alt="" width="30" />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
