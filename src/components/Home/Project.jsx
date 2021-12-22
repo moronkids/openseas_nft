@@ -10,7 +10,7 @@ function Faq() {
           <h2>SOL Hippies Lore</h2>
         </div>
         <div className="wrap w-100 d-sm-flex d-block flex-row mx-auto">
-          <div className="mr-sm-3 p-4 m-0">
+          <div className="w-auto mr-sm-3 p-sm-0 p-4">
             <p>
               Once upon a time, mighty people ruled the world. The Solean empire
               was formed from the power of words and songs, creating art,
@@ -39,9 +39,7 @@ function Faq() {
               rule the world once more.{" "}
             </p>
           </div>
-          <div>
-            <img src={Hero} alt="" className="w-sm-100 w-75 d-flex mx-auto" />
-          </div>
+          <div className="img"></div>
         </div>
       </div>
     </>

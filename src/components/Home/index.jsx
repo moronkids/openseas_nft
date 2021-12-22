@@ -4,6 +4,7 @@ import Desc from "components/Home/Desc";
 import Team from "components/Home/Team";
 import ShowCase from "components/Home/Showcase";
 import Roadmap from "components/Home/Roadmap";
+import About from "components/Home/About";
 import Project from "components/Home/Project";
 
 import Faq from "components/Home/Faq";
@@ -48,18 +49,18 @@ function Index() {
             }}
           ></div>
         </div>
-        {/* <div
+        <div
           id="roadmap"
           name="roadmap"
           className="roadmap"
           style={{
-            color: "#000000",
-            paddingTop: "50px",
-            paddingBottom: "70px",
+            color: "#f5f5f5",
+            // paddingTop: "50px",
+            // paddingBottom: "70px",
           }}
         >
-          <Roadmap />
-        </div> */}
+          <About />
+        </div>
       </div>
     </>
   );
