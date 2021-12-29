@@ -55,8 +55,8 @@ function Index() {
           className="roadmap"
           style={{
             color: "#f5f5f5",
-            // paddingTop: "50px",
-            // paddingBottom: "70px",
+            paddingTop: "50px",
+            paddingBottom: "50px",
           }}
         >
           <About />

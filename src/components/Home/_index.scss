@@ -62,13 +62,13 @@
         min-height: fit-content;
         margin: 18px 27%;
         border-radius: 10 px;
-        border: 4px solid #ffffff61;
+        // border: 4px solid #ffffff61;
         text-align: center;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-auto-flow: row;
-        backdrop-filter: blur(12px);
-        background-color: rgba(255, 255, 255, 0.47);
+        // backdrop-filter: blur(12px);
+        // background-color: rgba(255, 255, 255, 0.47);
         @media (max-width: 524px) {
           max-width: 350px;
         }
@@ -168,7 +168,11 @@
       }
     }
     img {
-      border-radius: 35px;
+      @media (max-width: 524px) {
+        width: 35px;
+        height: 35px;
+      }
+      // border-radius: 35px;
     }
     // ul,
     // ol {

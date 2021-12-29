@@ -34,7 +34,7 @@ function Banner() {
             <h2>Stealth Minting Right Now. </h2>
           </div>
           <div className="box">
-            <div className="text">LAUNCHED ON : 1st January 2022 UTC</div>
+            {/* <div className="text">LAUNCHED ON : 1st January 2022 UTC</div> */}
             {wallet_ && (
               <div className="text">{datas?.[0] + "/" + datas?.[1]}</div>
             )}
